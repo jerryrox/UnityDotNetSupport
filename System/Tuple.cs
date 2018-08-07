@@ -83,7 +83,7 @@ namespace System {
 
 	[Serializable]
 	public class Tuple<T1, T2> : IComparable {
-
+		
 		public readonly T1 Item1;
 		public readonly T2 Item2;
 		public readonly int Length = 2;
